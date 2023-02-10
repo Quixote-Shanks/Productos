@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Flutter - Nodejs - Mysql | E-Commers API",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "start": "nodemon src/index.js"
   },
-  "author": "Frave Developer",
+  "author": "Developer",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
