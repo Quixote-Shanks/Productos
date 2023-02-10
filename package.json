@@ -1,7 +1,7 @@
 {
   "name": "productos",
   "version": "1.0.0",
-  "description": "Flutter - Nodejs - Mysql | E-Commers API",
+  "description": "E-Commers API",
   "scripts": {
     "start": "nodemon src/index.js"
   },
