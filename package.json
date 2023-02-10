@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "E-Commers API",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "author": "Developer",
   "license": "ISC",
