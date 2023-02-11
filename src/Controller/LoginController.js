@@ -1,4 +1,3 @@
-
 const {response, request} = require('express');
 const connet = require('../DataBase/DataBase');
 const bcrypt = require('bcrypt');
@@ -42,7 +41,7 @@ const LoginUsuario = async ( req = request, res = response ) => {
         conn.end();
         return res.json({
             resp: true,
-            message : 'Welcome to Frave Shop',
+            message : 'Welcome to MyNDU Shop',
             token: token
         });
 
@@ -63,7 +62,7 @@ const RenweToken = async ( req = request , res = response ) => {
    
     return res.json({
         resp: true,
-        message : 'Welcome to Frave Shop',
+        message : 'Welcome to MyNDU Shop',
         token: token
     });
 }
